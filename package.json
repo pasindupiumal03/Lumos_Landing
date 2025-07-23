@@ -1,0 +1,13 @@
+{
+  "name": "lumos-landing",
+  "version": "1.0.0",
+  "description": "Lumos Marketing Agency Landing Page",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  },
+  "devDependencies": {}
+}

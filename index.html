@@ -3294,7 +3294,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const navLinks = document.querySelectorAll('.navbar a, .w-nav a');
     for (const link of navLinks) {
         if (link.textContent.trim().toUpperCase().includes('GET STARTED')) {
-            link.href = 'http://localhost:3000/tools';
+            link.href = 'https://new-lumos.vercel.app/';
             // Stop other scripts from overriding this
             link.addEventListener('click', function(e) {
                 e.preventDefault();
